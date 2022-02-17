@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="olamundofx.FXMLDocumentController">
+  <children>
+    <Button id="btn" fx:id="btnClick" layoutX="189.0" layoutY="213.0" mnemonicParsing="false" text="CLIQUE EM MIM" textOverrun="CENTER_WORD_ELLIPSIS">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Button>
+    <Label fx:id="lblMensagem" layoutX="115.0" layoutY="143.0" text="VAI APARECER UMA MENSAGEM" textFill="#ff3d00">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Label>
+  </children>
+  <stylesheets>
+    <URL value="@fxmldocument.css" />
+  </stylesheets>
+</AnchorPane>
